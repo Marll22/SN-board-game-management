@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Game" max_length="40" name="x_85636_bg_game" sizeclass="48" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="BGG ID" max_length="40" name="bgg_id" type="string"/>
+        <element label="Cooperative" max_length="40" name="cooperative" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="x_85636_bg_location" type="reference"/>
+        <element label="Max Players" max_length="40" name="max_players" type="integer"/>
+        <element label="Min Age" max_length="40" name="min_age" type="integer"/>
+        <element label="Min Players" max_length="40" name="min_players" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Playing Time (Minutes)" max_length="40" name="playing_time" type="integer"/>
+        <element label="Tabletop Simulator" max_length="40" name="tabletop_simulator" type="boolean"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:49</sys_created_on>
+        <sys_id>7e87a6cd1ba63c501363ff37dc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pick a game.Any User</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7e87a6cd1ba63c501363ff37dc4bcb42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:49</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_85636_bg_picker" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_85636_bg_picker" element="NULL" name="x_85636_bg_picker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d058e2011be63c501363ff37dc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-10 20:58:12</sys_created_on>
+            <sys_id>9458e2011be63c501363ff37dc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-10 20:58:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>game</element>
+            <list_id display_value="x_85636_bg_picker" element="NULL" name="x_85636_bg_picker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d058e2011be63c501363ff37dc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-10 20:58:12</sys_created_on>
+            <sys_id>9c58e2011be63c501363ff37dc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-10 20:58:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>min_age</element>
+            <list_id display_value="x_85636_bg_picker" element="NULL" name="x_85636_bg_picker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d058e2011be63c501363ff37dc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-10 20:58:12</sys_created_on>
+            <sys_id>9058e2011be63c501363ff37dc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-10 20:58:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>players</element>
+            <list_id display_value="x_85636_bg_picker" element="NULL" name="x_85636_bg_picker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d058e2011be63c501363ff37dc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-10 20:58:12</sys_created_on>
+            <sys_id>9458e2011be63c501363ff37dc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-10 20:58:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_85636_bg_picker</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-10 20:58:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d058e2011be63c501363ff37dc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_85636_bg_picker</sys_name>
+            <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+            <sys_update_name>sys_ui_list_x_85636_bg_picker_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-10 20:58:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

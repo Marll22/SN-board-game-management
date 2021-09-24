@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch1-08-26-2021_09-06-2021_0849.zip</compiler_build>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>game_picker</internal_name>
+        <label_cache>[{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.table_name","label":"4➛Game Picker m2m Table","reference":"x_85636_bg_game_picker_m2m","reference_display":"Game Picker m2m","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.record","label":"4➛Game Picker m2m Record","reference":"x_85636_bg_game_picker_m2m","reference_display":"Game Picker m2m","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Records","label":"1➛Game Records","reference":"x_85636_bg_game","reference_display":"Game","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Table","label":"1➛Game Table","reference":"x_85636_bg_game","reference_display":"Game","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.min_age","label":"Trigger➛Picker Record➛Min Age","reference":"","reference_display":"Min Age","type":"integer","base_type":"integer","parent_table_name":"x_85636_bg_picker","column_name":"min_age"},{"name":"Created_1.current.players","label":"Trigger➛Picker Record➛Players","reference":"","reference_display":"Players","type":"integer","base_type":"integer","parent_table_name":"x_85636_bg_picker","column_name":"players"},{"name":"9ac17b86-a3f3-4896-a3dd-90c936521362.item","label":"3➛Game Record","reference":"x_85636_bg_game","reference_display":"Game","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.game_iteration","label":"Flow Variables➛Game Iteration","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a6743461-0c19-47a7-b183-6a73d66fb5a7"}},{"name":"flow_variable.random_choice","label":"Flow Variables➛Random Choice","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1950209-5822-47e3-ba37-c9045078f59a"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.record","label":"6➛Picker Record","reference":"x_85636_bg_picker","reference_display":"Picker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.table_name","label":"6➛Picker Table","reference":"x_85636_bg_picker","reference_display":"Picker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Picker Record","reference":"x_85636_bg_picker","reference_display":"Picker","type":"reference","base_type":"reference","attributes":{}},{"name":"9ac17b86-a3f3-4896-a3dd-90c936521362.item.sys_id","label":"3➛Game Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_85636_bg_game","column_name":"sys_id"},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.record","label":"9➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.table_name","label":"9➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master_snapshot>221c66491be63c501363ff37dc4bcb8f</master_snapshot>
+        <name>Game Picker</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a5de22ad1b76f0501363ff37dc4bcba1</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:55:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fa7aacd1ba63c501363ff37dc4bcbe1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Game Picker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_hub_flow_0fa7aacd1ba63c501363ff37dc4bcbe1</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0fa7aacd1ba63c501363ff37dc4bcbe1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0fa7aacd1ba63c501363ff37dc4bcbe1"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_85636_bg_picker">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:59:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5de22ad1b76f0501363ff37dc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <table>x_85636_bg_picker</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"61de22ad1b76f0501363ff37dc4bcba2","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>0fa7aacd1ba63c501363ff37dc4bcbe1</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:59:21</sys_created_on>
+        <sys_id>61de22ad1b76f0501363ff37dc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <trigger display_value="">a5de22ad1b76f0501363ff37dc4bcba1</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>61de22ad1b76f0501363ff37dc4bcba2</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:59:21</sys_created_on>
+        <sys_id>69de22ad1b76f0501363ff37dc4bcba2</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN61de22ad1b76f0501363ff37dc4bcba2"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN6738ee011be63c501363ff37dc4bcb52"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>6738ee011be63c501363ff37dc4bcb52</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6738ee011be63c501363ff37dc4bcb52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6738ee011be63c501363ff37dc4bcb52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>2b38ee011be63c501363ff37dc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6738ee011be63c501363ff37dc4bcb52</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>e338ee011be63c501363ff37dc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <value>x_85636_bg_picker</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN8ba7aacd1ba63c501363ff37dc4bcbe4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0fa7aacd1ba63c501363ff37dc4bcbe1</id>
+        <name>Game Picker</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:55:23</sys_created_on>
+        <sys_id>8ba7aacd1ba63c501363ff37dc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:55:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN5f38ee011be63c501363ff37dc4bcb42,af38ee011be63c501363ff37dc4bcb4a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</model>
+        <model_id>0fa7aacd1ba63c501363ff37dc4bcbe1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:51</sys_created_on>
+        <sys_id>5f38ee011be63c501363ff37dc4bcb42</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</model>
+        <model_id>0fa7aacd1ba63c501363ff37dc4bcbe1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>af38ee011be63c501363ff37dc4bcb4a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN2338ee011be63c501363ff37dc4bcb5b,677ca6291b76f0501363ff37dc4bcb7e,858beec51be63c501363ff37dc4bcb59"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>2338ee011be63c501363ff37dc4bcb5b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:37</sys_updated_on>
+        <ui_id>e49a4715-cbdb-4270-8832-b4f1dfaa6d63</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2338ee011be63c501363ff37dc4bcb5b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2338ee011be63c501363ff37dc4bcb5b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>2738ee011be63c501363ff37dc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <value>x_85636_bg_game</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2338ee011be63c501363ff37dc4bcb5b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>2338ee011be63c501363ff37dc4bcb5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>6b38ee011be63c501363ff37dc4bcb5d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:57:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>min_players&lt;={{Created_1.current.players}}^max_players&gt;={{Created_1.current.players}}^min_age&lt;={{Created_1.current.min_age}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2338ee011be63c501363ff37dc4bcb5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>a338ee011be63c501363ff37dc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <order>4</order>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:49:06</sys_created_on>
+        <sys_id>677ca6291b76f0501363ff37dc4bcb7e</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:37</sys_updated_on>
+        <ui_id>c29b75fc-26f2-452c-a30f-8cfb93dec417</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=677ca6291b76f0501363ff37dc4bcb7e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>677ca6291b76f0501363ff37dc4bcb7e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:49:06</sys_created_on>
+        <sys_id>eb7ca6291b76f0501363ff37dc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:49:06</sys_updated_on>
+        <value>x_85636_bg_game_picker_m2m</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=677ca6291b76f0501363ff37dc4bcb7e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>677ca6291b76f0501363ff37dc4bcb7e</id>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:49:06</sys_created_on>
+        <sys_id>237ca6291b76f0501363ff37dc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:49:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>677ca6291b76f0501363ff37dc4bcb7e</id>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:49:06</sys_created_on>
+        <sys_id>6b7ca6291b76f0501363ff37dc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:49:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>game={{9ac17b86-a3f3-4896-a3dd-90c936521362.item}}^picker={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <order>6</order>
+        <parent_ui_id>751bf925-00a5-43ea-a383-c28c51f68e0c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>858beec51be63c501363ff37dc4bcb59</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:37</sys_updated_on>
+        <ui_id>eb00fc76-3ee5-4aaf-93d1-8159e0924b67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=858beec51be63c501363ff37dc4bcb59"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>858beec51be63c501363ff37dc4bcb59</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>d98beec51be63c501363ff37dc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <value>x_85636_bg_picker</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=858beec51be63c501363ff37dc4bcb59"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>858beec51be63c501363ff37dc4bcb59</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>958beec51be63c501363ff37dc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>858beec51be63c501363ff37dc4bcb59</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>d18beec51be63c501363ff37dc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>858beec51be63c501363ff37dc4bcb59</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>598beec51be63c501363ff37dc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>game={{9ac17b86-a3f3-4896-a3dd-90c936521362.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN018beec51be63c501363ff37dc4bcb2d,558beec51be63c501363ff37dc4bcb5f,858beec51be63c501363ff37dc4bcb29,918beec51be63c501363ff37dc4bcb62,cd8beec51be63c501363ff37dc4bcb15"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">498beec51be63c501363ff37dc4bcb2c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>018beec51be63c501363ff37dc4bcb2d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <ui_id>751bf925-00a5-43ea-a383-c28c51f68e0c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=018beec51be63c501363ff37dc4bcb2d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1^id=018beec51be63c501363ff37dc4bcb2d"/>
+    <sys_element_mapping action="delete_multiple" query="id=018beec51be63c501363ff37dc4bcb2d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>018beec51be63c501363ff37dc4bcb2d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>818beec51be63c501363ff37dc4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.game_iteration}}={{flow_variable.random_choice}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9d8beec51be63c501363ff37dc4bcb5e</block>
+        <comment/>
+        <connected_to>751bf925-00a5-43ea-a383-c28c51f68e0c</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>558beec51be63c501363ff37dc4bcb5f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:22</sys_updated_on>
+        <ui_id>bbcfa0ac-df25-490c-9a71-8e2692862c5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=558beec51be63c501363ff37dc4bcb5f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1^id=558beec51be63c501363ff37dc4bcb5f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cd8beec51be63c501363ff37dc4bcb28</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>858beec51be63c501363ff37dc4bcb29</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=858beec51be63c501363ff37dc4bcb29"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1^id=858beec51be63c501363ff37dc4bcb29"/>
+    <sys_element_mapping action="delete_multiple" query="id=858beec51be63c501363ff37dc4bcb29"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>858beec51be63c501363ff37dc4bcb29</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>058beec51be63c501363ff37dc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d98beec51be63c501363ff37dc4bcb61</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>game_iteration</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bbcfa0ac-df25-490c-9a71-8e2692862c5f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>918beec51be63c501363ff37dc4bcb62</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:22</sys_updated_on>
+        <ui_id>75a4fe60-1643-4cc4-97d6-031ca99b8bc3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=918beec51be63c501363ff37dc4bcb62"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>918beec51be63c501363ff37dc4bcb62</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>518beec51be63c501363ff37dc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <value/>
+        <variable display_value="Game Iteration">018baec51be63c501363ff37dc4bcbe7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=918beec51be63c501363ff37dc4bcb62"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>game_iteration</field>
+        <id>918beec51be63c501363ff37dc4bcb62</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>dd8beec51be63c501363ff37dc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1</table>
+        <value>{{fd_transform:cdded815-3d80-40bd-89f6-fe41f332b504}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">418beec51be63c501363ff37dc4bcb15</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>random_choice,game_iteration</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>cd8beec51be63c501363ff37dc4bcb15</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <ui_id>8a4fa0fe-2f66-4fd0-ba5c-036478ce41c8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cd8beec51be63c501363ff37dc4bcb15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cd8beec51be63c501363ff37dc4bcb15</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>c58beec51be63c501363ff37dc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <value/>
+        <variable display_value="Random Choice">7c8baec51be63c501363ff37dc4bcbdf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cd8beec51be63c501363ff37dc4bcb15</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>cd8beec51be63c501363ff37dc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Game Iteration">018baec51be63c501363ff37dc4bcbe7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cd8beec51be63c501363ff37dc4bcb15"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>game_iteration</field>
+        <id>cd8beec51be63c501363ff37dc4bcb15</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>858beec51be63c501363ff37dc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>random_choice</field>
+        <id>cd8beec51be63c501363ff37dc4bcb15</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>4d8beec51be63c501363ff37dc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1</table>
+        <value>{{e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd8beec51be63c501363ff37dc4bcb15^sys_idNOT IN858beec51be63c501363ff37dc4bcb17"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>random_choice</input_name>
+        <instance>cd8beec51be63c501363ff37dc4bcb15</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"random_choice":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar gameCount \u003d parseInt(fd_data._1__look_up_records.count);\nvar newCount \u003d Math.floor(gameCount*Math.random());\nreturn newCount;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>858beec51be63c501363ff37dc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN558beec51be63c501363ff37dc4bcb73,9d8beec51be63c501363ff37dc4bcb73"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0fa7aacd1ba63c501363ff37dc4bcbe1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.game_iteration}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>558beec51be63c501363ff37dc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cdded815-3d80-40bd-89f6-fe41f332b504</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0fa7aacd1ba63c501363ff37dc4bcbe1</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>cdded815-3d80-40bd-89f6-fe41f332b504</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:11</sys_created_on>
+        <sys_id>9d8beec51be63c501363ff37dc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>5519ba5b-ce7c-49e9-9fa6-9dce81f0fe2e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN018baec51be63c501363ff37dc4bcbe7,7c8baec51be63c501363ff37dc4bcbdf"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a6743461-0c19-47a7-b183-6a73d66fb5a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>game_iteration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Game Iteration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</model>
+        <model_id>0fa7aacd1ba63c501363ff37dc4bcbe1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:10</sys_created_on>
+        <sys_id>018baec51be63c501363ff37dc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Game Iteration</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_018baec51be63c501363ff37dc4bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d1950209-5822-47e3-ba37-c9045078f59a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>random_choice</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Random Choice</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</model>
+        <model_id>0fa7aacd1ba63c501363ff37dc4bcbe1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:12:09</sys_created_on>
+        <sys_id>7c8baec51be63c501363ff37dc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Random Choice</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_7c8baec51be63c501363ff37dc4bcbdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:12:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT INe738ee011be63c501363ff37dc4bcb49,eb38ee011be63c501363ff37dc4bcb4f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>e738ee011be63c501363ff37dc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0fa7aacd1ba63c501363ff37dc4bcbe1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:57:52</sys_created_on>
+        <sys_id>eb38ee011be63c501363ff37dc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:57:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0fa7aacd1ba63c501363ff37dc4bcbe1^sys_idNOT IN8b1ca6491be63c501363ff37dc4bcb49"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8b1ca6491be63c501363ff37dc4bcb49","name":"plan","plan_signature":null}}</plan>
+        <plan_id>0fa7aacd1ba63c501363ff37dc4bcbe1</plan_id>
+        <snapshot>51ee26ad1b76f0501363ff37dc4bcb38</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b1ca6491be63c501363ff37dc4bcb49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <trigger display_value="">a5de22ad1b76f0501363ff37dc4bcba1</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>game_picker</internal_name>
+        <label_cache>[{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.table_name","label":"4➛Game Picker m2m Table","reference":"x_85636_bg_game_picker_m2m","reference_display":"Game Picker m2m","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c29b75fc-26f2-452c-a30f-8cfb93dec417.record","label":"4➛Game Picker m2m Record","reference":"x_85636_bg_game_picker_m2m","reference_display":"Game Picker m2m","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Records","label":"1➛Game Records","reference":"x_85636_bg_game","reference_display":"Game","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Table","label":"1➛Game Table","reference":"x_85636_bg_game","reference_display":"Game","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e49a4715-cbdb-4270-8832-b4f1dfaa6d63.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.min_age","label":"Trigger➛Picker Record➛Min Age","reference":"","reference_display":"Min Age","type":"integer","base_type":"integer","parent_table_name":"x_85636_bg_picker","column_name":"min_age"},{"name":"Created_1.current.players","label":"Trigger➛Picker Record➛Players","reference":"","reference_display":"Players","type":"integer","base_type":"integer","parent_table_name":"x_85636_bg_picker","column_name":"players"},{"name":"9ac17b86-a3f3-4896-a3dd-90c936521362.item","label":"3➛Game Record","reference":"x_85636_bg_game","reference_display":"Game","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.game_iteration","label":"Flow Variables➛Game Iteration","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a6743461-0c19-47a7-b183-6a73d66fb5a7"}},{"name":"flow_variable.random_choice","label":"Flow Variables➛Random Choice","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1950209-5822-47e3-ba37-c9045078f59a"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.record","label":"6➛Picker Record","reference":"x_85636_bg_picker","reference_display":"Picker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.table_name","label":"6➛Picker Table","reference":"x_85636_bg_picker","reference_display":"Picker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb00fc76-3ee5-4aaf-93d1-8159e0924b67.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Picker Record","reference":"x_85636_bg_picker","reference_display":"Picker","type":"reference","base_type":"reference","attributes":{}},{"name":"9ac17b86-a3f3-4896-a3dd-90c936521362.item.sys_id","label":"3➛Game Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_85636_bg_game","column_name":"sys_id"},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.record","label":"9➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.table_name","label":"9➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5f27017f-06ab-4f36-b742-98b67e8d0dfc.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Game Picker</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Game Picker">0fa7aacd1ba63c501363ff37dc4bcbe1</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>221c66491be63c501363ff37dc4bcb8f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=221c66491be63c501363ff37dc4bcb8f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=221c66491be63c501363ff37dc4bcb8f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=221c66491be63c501363ff37dc4bcb8f^sys_idNOT IN321c66491be63c501363ff37dc4bcbfb"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>321c66491be63c501363ff37dc4bcbfb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:21</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=321c66491be63c501363ff37dc4bcbfb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>321c66491be63c501363ff37dc4bcbfb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>3a1c66491be63c501363ff37dc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>321c66491be63c501363ff37dc4bcbfb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>fa1c66491be63c501363ff37dc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <value>x_85636_bg_picker</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=221c66491be63c501363ff37dc4bcb8f^sys_idNOT INa61c66491be63c501363ff37dc4bcb90"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>221c66491be63c501363ff37dc4bcb8f</id>
+        <name>Game Picker</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:43</sys_created_on>
+        <sys_id>a61c66491be63c501363ff37dc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=221c66491be63c501363ff37dc4bcb8f^sys_idNOT INe61c66491be63c501363ff37dc4bcba6,ea1c66491be63c501363ff37dc4bcb91"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</model>
+        <model_id>221c66491be63c501363ff37dc4bcb8f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_221c66491be63c501363ff37dc4bcb8f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>e61c66491be63c501363ff37dc4bcba6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</model>
+        <model_id>221c66491be63c501363ff37dc4bcb8f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_221c66491be63c501363ff37dc4bcb8f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:43</sys_created_on>
+        <sys_id>ea1c66491be63c501363ff37dc4bcb91</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=221c66491be63c501363ff37dc4bcb8f^sys_idNOT IN321c66491be63c501363ff37dc4bcbf1,774da6a91b76f0501363ff37dc4bcbca,7e1c66491be63c501363ff37dc4bcbf8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>321c66491be63c501363ff37dc4bcbf1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <ui_id>e49a4715-cbdb-4270-8832-b4f1dfaa6d63</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=321c66491be63c501363ff37dc4bcbf1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>321c66491be63c501363ff37dc4bcbf1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>f21c66491be63c501363ff37dc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <value>x_85636_bg_game</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=321c66491be63c501363ff37dc4bcbf1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>321c66491be63c501363ff37dc4bcbf1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>be1c66491be63c501363ff37dc4bcbf2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>min_players&lt;={{Created_1.current.players}}^max_players&gt;={{Created_1.current.players}}^min_age&lt;={{Created_1.current.min_age}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>321c66491be63c501363ff37dc4bcbf1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>721c66491be63c501363ff37dc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <order>4</order>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:52:40</sys_created_on>
+        <sys_id>774da6a91b76f0501363ff37dc4bcbca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <ui_id>c29b75fc-26f2-452c-a30f-8cfb93dec417</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=774da6a91b76f0501363ff37dc4bcbca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>774da6a91b76f0501363ff37dc4bcbca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:52:40</sys_created_on>
+        <sys_id>7b4da6a91b76f0501363ff37dc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:52:40</sys_updated_on>
+        <value>x_85636_bg_game_picker_m2m</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=774da6a91b76f0501363ff37dc4bcbca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>774da6a91b76f0501363ff37dc4bcbca</id>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:52:40</sys_created_on>
+        <sys_id>374da6a91b76f0501363ff37dc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:52:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>774da6a91b76f0501363ff37dc4bcbca</id>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 20:52:40</sys_created_on>
+        <sys_id>f74da6a91b76f0501363ff37dc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:52:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>game={{9ac17b86-a3f3-4896-a3dd-90c936521362.item}}^picker={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <order>6</order>
+        <parent_ui_id>751bf925-00a5-43ea-a383-c28c51f68e0c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>7e1c66491be63c501363ff37dc4bcbf8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:19</sys_updated_on>
+        <ui_id>eb00fc76-3ee5-4aaf-93d1-8159e0924b67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e1c66491be63c501363ff37dc4bcbf8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e1c66491be63c501363ff37dc4bcbf8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>ba1c66491be63c501363ff37dc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <value>x_85636_bg_picker</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e1c66491be63c501363ff37dc4bcbf8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7e1c66491be63c501363ff37dc4bcbf8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>761c66491be63c501363ff37dc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7e1c66491be63c501363ff37dc4bcbf8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>b21c66491be63c501363ff37dc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7e1c66491be63c501363ff37dc4bcbf8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>3a1c66491be63c501363ff37dc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>game={{9ac17b86-a3f3-4896-a3dd-90c936521362.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=221c66491be63c501363ff37dc4bcb8f^sys_idNOT IN6a1c66491be63c501363ff37dc4bcbdc,6e1c66491be63c501363ff37dc4bcbd2,6e1c66491be63c501363ff37dc4bcbd8,7a1c66491be63c501363ff37dc4bcbe3,7a1c66491be63c501363ff37dc4bcbe6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">498beec51be63c501363ff37dc4bcb2c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>6a1c66491be63c501363ff37dc4bcbdc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:19</sys_updated_on>
+        <ui_id>751bf925-00a5-43ea-a383-c28c51f68e0c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6a1c66491be63c501363ff37dc4bcbdc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f^id=6a1c66491be63c501363ff37dc4bcbdc"/>
+    <sys_element_mapping action="delete_multiple" query="id=6a1c66491be63c501363ff37dc4bcbdc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>6a1c66491be63c501363ff37dc4bcbdc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>3e1c66491be63c501363ff37dc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{flow_variable.game_iteration}}={{flow_variable.random_choice}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">418beec51be63c501363ff37dc4bcb15</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>random_choice,game_iteration</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>6e1c66491be63c501363ff37dc4bcbd2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <ui_id>8a4fa0fe-2f66-4fd0-ba5c-036478ce41c8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6e1c66491be63c501363ff37dc4bcbd2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e1c66491be63c501363ff37dc4bcbd2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>e61c66491be63c501363ff37dc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Game Iteration">a21c66491be63c501363ff37dc4bcbb8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e1c66491be63c501363ff37dc4bcbd2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>ee1c66491be63c501363ff37dc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <value/>
+        <variable display_value="Random Choice">661c66491be63c501363ff37dc4bcbcb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e1c66491be63c501363ff37dc4bcbd2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>game_iteration</field>
+        <id>6e1c66491be63c501363ff37dc4bcbd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>ae1c66491be63c501363ff37dc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>random_choice</field>
+        <id>6e1c66491be63c501363ff37dc4bcbd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>661c66491be63c501363ff37dc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f</table>
+        <value>{{e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e1c66491be63c501363ff37dc4bcbd2^sys_idNOT IN621c66491be63c501363ff37dc4bcbd4"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>random_choice</input_name>
+        <instance>6e1c66491be63c501363ff37dc4bcbd2</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"random_choice":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar gameCount \u003d parseInt(fd_data._1__look_up_records.count);\nvar newCount \u003d Math.floor(gameCount*Math.random());\nreturn newCount;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>621c66491be63c501363ff37dc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cd8beec51be63c501363ff37dc4bcb28</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>6e1c66491be63c501363ff37dc4bcbd8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:18</sys_updated_on>
+        <ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6e1c66491be63c501363ff37dc4bcbd8"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f^id=6e1c66491be63c501363ff37dc4bcbd8"/>
+    <sys_element_mapping action="delete_multiple" query="id=6e1c66491be63c501363ff37dc4bcbd8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6e1c66491be63c501363ff37dc4bcbd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>2e1c66491be63c501363ff37dc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e49a4715-cbdb-4270-8832-b4f1dfaa6d63.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9d8beec51be63c501363ff37dc4bcb5e</block>
+        <comment/>
+        <connected_to>751bf925-00a5-43ea-a383-c28c51f68e0c</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9ac17b86-a3f3-4896-a3dd-90c936521362</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>7a1c66491be63c501363ff37dc4bcbe3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:19</sys_updated_on>
+        <ui_id>bbcfa0ac-df25-490c-9a71-8e2692862c5f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7a1c66491be63c501363ff37dc4bcbe3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f^id=7a1c66491be63c501363ff37dc4bcbe3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d98beec51be63c501363ff37dc4bcb61</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>game_iteration</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bbcfa0ac-df25-490c-9a71-8e2692862c5f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>7a1c66491be63c501363ff37dc4bcbe6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 20:59:19</sys_updated_on>
+        <ui_id>75a4fe60-1643-4cc4-97d6-031ca99b8bc3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7a1c66491be63c501363ff37dc4bcbe6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7a1c66491be63c501363ff37dc4bcbe6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>721c66491be63c501363ff37dc4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <value/>
+        <variable display_value="Game Iteration">a21c66491be63c501363ff37dc4bcbb8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7a1c66491be63c501363ff37dc4bcbe6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>game_iteration</field>
+        <id>7a1c66491be63c501363ff37dc4bcbe6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>fe1c66491be63c501363ff37dc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f</table>
+        <value>{{fd_transform:cdded815-3d80-40bd-89f6-fe41f332b504}}</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=221c66491be63c501363ff37dc4bcb8f^sys_idNOT IN321c66491be63c501363ff37dc4bcbfd,b61c66491be63c501363ff37dc4bcbfd"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>221c66491be63c501363ff37dc4bcb8f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.game_iteration}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>321c66491be63c501363ff37dc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cdded815-3d80-40bd-89f6-fe41f332b504</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>221c66491be63c501363ff37dc4bcb8f</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>cdded815-3d80-40bd-89f6-fe41f332b504</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:45</sys_created_on>
+        <sys_id>b61c66491be63c501363ff37dc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:45</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>5519ba5b-ce7c-49e9-9fa6-9dce81f0fe2e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=221c66491be63c501363ff37dc4bcb8f^sys_idNOT IN661c66491be63c501363ff37dc4bcbcb,a21c66491be63c501363ff37dc4bcbb8"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d1950209-5822-47e3-ba37-c9045078f59a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>random_choice</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Random Choice</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</model>
+        <model_id>221c66491be63c501363ff37dc4bcb8f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>661c66491be63c501363ff37dc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Random Choice</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_661c66491be63c501363ff37dc4bcbcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=a6743461-0c19-47a7-b183-6a73d66fb5a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>game_iteration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Game Iteration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Game Picker">221c66491be63c501363ff37dc4bcb8f</model>
+        <model_id>221c66491be63c501363ff37dc4bcb8f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_221c66491be63c501363ff37dc4bcb8f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>a21c66491be63c501363ff37dc4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Game Iteration</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_a21c66491be63c501363ff37dc4bcbb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_221c66491be63c501363ff37dc4bcb8f^sys_idNOT INa21c66491be63c501363ff37dc4bcbad,a61c66491be63c501363ff37dc4bcba2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_221c66491be63c501363ff37dc4bcb8f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:44</sys_created_on>
+        <sys_id>a21c66491be63c501363ff37dc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_221c66491be63c501363ff37dc4bcb8f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 21:14:43</sys_created_on>
+        <sys_id>a61c66491be63c501363ff37dc4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 21:14:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>0fa7aacd1ba63c501363ff37dc4bcbe1</sys_id>
+        <latest_snapshot>221c66491be63c501363ff37dc4bcb8f</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

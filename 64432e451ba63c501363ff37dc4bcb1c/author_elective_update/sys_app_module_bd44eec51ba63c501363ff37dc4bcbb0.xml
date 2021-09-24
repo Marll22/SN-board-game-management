@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Bg 1631306430288</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_85636_bg_1631306430288</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:40:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd44eec51ba63c501363ff37dc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bg 1631306430288</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_app_module_bd44eec51ba63c501363ff37dc4bcbb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:40:32</sys_updated_on>
+        <timeline_page/>
+        <title>Bg 1631306430288</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</application>
+        <file_path/>
+        <instance_id>c82f1306db47b3c007072f17d4961937</instance_id>
+        <instance_name>dev90794</instance_name>
+        <name>sys_app_module_bd44eec51ba63c501363ff37dc4bcbb0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Bg 1631306430288</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_85636_bg_1631306430288</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-10 20:40:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd44eec51ba63c501363ff37dc4bcbb0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bg 1631306430288</sys_name><sys_overrides/><sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package><sys_policy/><sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope><sys_update_name>sys_app_module_bd44eec51ba63c501363ff37dc4bcbb0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-10 20:40:32</sys_updated_on><timeline_page/><title>Bg 1631306430288</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>29752346</payload_hash>
+        <record_name>Bg 1631306430288</record_name>
+        <reverted_from/>
+        <source>28432e451ba63c501363ff37dc4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:40:33</sys_created_on>
+        <sys_id>7944eec51ba63c501363ff37dc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bd170c20c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:40:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b144eec56aa63c504a4ec2b27f2ba0c0</update_guid>
+        <update_guid_history>b144eec56aa63c504a4ec2b27f2ba0c0:29752346</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bg 1631306430288">c5b462491ba63c501363ff37dc4bcbcc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:42:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0e83e85271574028832c6cfd4b76f090</sys_id>
+        <sys_metadata>bd44eec51ba63c501363ff37dc4bcbb0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bg 1631306430288</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_scope_delete display_value="">2dcb12088ec34c609e02e7d81db32400</sys_scope_delete>
+        <sys_update_name>sys_app_module_bd44eec51ba63c501363ff37dc4bcbb0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_bd44eec51ba63c501363ff37dc4bcbb0">7944eec51ba63c501363ff37dc4bcbc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:42:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

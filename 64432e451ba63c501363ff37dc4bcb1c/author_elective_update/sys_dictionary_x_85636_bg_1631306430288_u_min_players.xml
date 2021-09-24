@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_min_players" table="x_85636_bg_1631306430288">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=Min Players</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Min Players</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_min_players</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_85636_bg_1631306430288</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:40:31</sys_created_on>
+        <sys_id>9544eec51ba63c501363ff37dc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Min Players</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sys_dictionary_x_85636_bg_1631306430288_u_min_players</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:40:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</application>
+        <file_path/>
+        <instance_id>c82f1306db47b3c007072f17d4961937</instance_id>
+        <instance_name>dev90794</instance_name>
+        <name>sys_dictionary_x_85636_bg_1631306430288_u_min_players</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_min_players" table="x_85636_bg_1631306430288"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=Min Players</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Min Players</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_min_players</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_85636_bg_1631306430288</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-10 20:40:31</sys_created_on><sys_id>9544eec51ba63c501363ff37dc4bcb63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Min Players</sys_name><sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package><sys_policy/><sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope><sys_update_name>sys_dictionary_x_85636_bg_1631306430288_u_min_players</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-10 20:40:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-806244756</payload_hash>
+        <record_name>Bg 1631306430288.Min Players</record_name>
+        <reverted_from/>
+        <source>28432e451ba63c501363ff37dc4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:40:32</sys_created_on>
+        <sys_id>e944eec51ba63c501363ff37dc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bd170bdff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:40:32</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6544eec56da63c50967c1ede5d95348a</update_guid>
+        <update_guid_history>6544eec56da63c50967c1ede5d95348a:-806244756</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:42:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2e84b81ad4b443f3b302ae63338dbce9</sys_id>
+        <sys_metadata>9544eec51ba63c501363ff37dc4bcb63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Min Players</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_parent display_value="">9944aec51ba63c501363ff37dc4bcbe8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_scope_delete display_value="">2dcb12088ec34c609e02e7d81db32400</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_85636_bg_1631306430288_u_min_players</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_85636_bg_1631306430288_u_min_players">e944eec51ba63c501363ff37dc4bcb8a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:42:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:13</sys_created_on>
+        <sys_id>866722cd1ba63c501363ff37dc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Pick a game</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sc_cat_item_category_866722cd1ba63c501363ff37dc4bcb60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:13</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</application>
+        <file_path/>
+        <instance_id>c82f1306db47b3c007072f17d4961937</instance_id>
+        <instance_name>dev90794</instance_name>
+        <name>sc_cat_item_category_866722cd1ba63c501363ff37dc4bcb60</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-10 20:54:13</sys_created_on><sys_id>866722cd1ba63c501363ff37dc4bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Pick a game</sys_name><sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package><sys_policy/><sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope><sys_update_name>sc_cat_item_category_866722cd1ba63c501363ff37dc4bcb60</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-10 20:54:13</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-131961723</payload_hash>
+        <record_name>Can We Help You?.Pick a game</record_name>
+        <reverted_from/>
+        <source>28432e451ba63c501363ff37dc4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:13</sys_created_on>
+        <sys_id>8a6722cd1ba63c501363ff37dc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bd17d45b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:13</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>026722cd9ba63c50f41530cdb4bbdd6b</update_guid>
+        <update_guid_history>026722cd9ba63c50f41530cdb4bbdd6b:-131961723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Pick a game">b177a2cd1ba63c501363ff37dc4bcb95</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>956b4cd10c734912be6d61db7ae0def1</sys_id>
+        <sys_metadata>866722cd1ba63c501363ff37dc4bcb60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Pick a game</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_scope_delete display_value="">2dcb12088ec34c609e02e7d81db32400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_866722cd1ba63c501363ff37dc4bcb60</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_866722cd1ba63c501363ff37dc4bcb60">8a6722cd1ba63c501363ff37dc4bcb6b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Picker" max_length="40" name="x_85636_bg_picker" sizeclass="2" type="collection">
+        <element label="Game" max_length="32" name="game" reference="x_85636_bg_game" type="reference"/>
+        <element label="Min Age" max_length="40" name="min_age" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Players" max_length="40" name="players" type="integer"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+    </element>
+</database>

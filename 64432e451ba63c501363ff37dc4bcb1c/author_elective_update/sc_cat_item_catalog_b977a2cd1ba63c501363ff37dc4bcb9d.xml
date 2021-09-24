@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:28</sys_created_on>
+        <sys_id>b977a2cd1ba63c501363ff37dc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Pick a game</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b977a2cd1ba63c501363ff37dc4bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</application>
+        <file_path/>
+        <instance_id>c82f1306db47b3c007072f17d4961937</instance_id>
+        <instance_name>dev90794</instance_name>
+        <name>sc_cat_item_catalog_b977a2cd1ba63c501363ff37dc4bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-10 20:54:28</sys_created_on><sys_id>b977a2cd1ba63c501363ff37dc4bcb9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Pick a game</sys_name><sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package><sys_policy/><sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope><sys_update_name>sc_cat_item_catalog_b977a2cd1ba63c501363ff37dc4bcb9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-10 20:54:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1628442083</payload_hash>
+        <record_name>Service Catalog.Pick a game</record_name>
+        <reverted_from/>
+        <source>28432e451ba63c501363ff37dc4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:28</sys_created_on>
+        <sys_id>b177a2cd1ba63c501363ff37dc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bd17d821c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3977a2cd25a63c50b75fa7c386312ba3</update_guid>
+        <update_guid_history>3977a2cd25a63c50b75fa7c386312ba3:-1628442083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Pick a game">ab77e2cd1ba63c501363ff37dc4bcbf9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-10 20:54:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2c54111347f54b4094acfad171f88100</sys_id>
+        <sys_metadata>b977a2cd1ba63c501363ff37dc4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Pick a game</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_parent display_value="Pick a game">3ea6664d1ba63c501363ff37dc4bcbe4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_scope_delete display_value="">2dcb12088ec34c609e02e7d81db32400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b977a2cd1ba63c501363ff37dc4bcb9d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b977a2cd1ba63c501363ff37dc4bcb9d">b177a2cd1ba63c501363ff37dc4bcba4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-10 20:54:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

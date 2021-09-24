@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Game Picker m2m" max_length="40" name="x_85636_bg_game_picker_m2m" sizeclass="0" type="collection">
+        <element label="Game" max_length="32" name="game" reference="x_85636_bg_game" type="reference"/>
+        <element label="Picker" max_length="32" name="picker" reference="x_85636_bg_picker" type="reference"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+        <index name="index2">
+            <element name="picker"/>
+        </index>
+    </element>
+</database>
