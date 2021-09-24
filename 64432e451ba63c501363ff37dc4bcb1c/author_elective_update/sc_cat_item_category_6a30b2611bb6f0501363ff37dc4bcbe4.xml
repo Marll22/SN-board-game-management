@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Game picker">07efe6211bb6f0501363ff37dc4bcbb5</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 21:05:25</sys_created_on>
+        <sys_id>6a30b2611bb6f0501363ff37dc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Game picker</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_update_name>sc_cat_item_category_6a30b2611bb6f0501363ff37dc4bcbe4</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 21:05:25</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</application>
+        <file_path/>
+        <instance_id>c82f1306db47b3c007072f17d4961937</instance_id>
+        <instance_name>dev90794</instance_name>
+        <name>sc_cat_item_category_6a30b2611bb6f0501363ff37dc4bcbe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Game picker">07efe6211bb6f0501363ff37dc4bcbb5</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>earl.duque</sys_created_by><sys_created_on>2021-09-24 21:05:25</sys_created_on><sys_id>6a30b2611bb6f0501363ff37dc4bcbe4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Game picker</sys_name><sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package><sys_policy/><sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope><sys_update_name>sc_cat_item_category_6a30b2611bb6f0501363ff37dc4bcbe4</sys_update_name><sys_updated_by>earl.duque</sys_updated_by><sys_updated_on>2021-09-24 21:05:25</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1750287193</payload_hash>
+        <record_name>Can We Help You?.Game picker</record_name>
+        <reverted_from/>
+        <source>47efe6211bb6f0501363ff37dc4bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 21:05:25</sys_created_on>
+        <sys_id>ee30b2611bb6f0501363ff37dc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c19a08fd20000001</sys_recorded_at>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 21:05:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6630b261ddb6f050eb66c1a8ea9dc3e8</update_guid>
+        <update_guid_history>6630b261ddb6f050eb66c1a8ea9dc3e8:-1750287193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Game picker">e630b2611bb6f0501363ff37dc4bcbfd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2021-09-24 21:05:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>12e6e4345f8e4eb08f97628be06f0e59</sys_id>
+        <sys_metadata>6a30b2611bb6f0501363ff37dc4bcbe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Game picker</sys_name>
+        <sys_package display_value="Board Game Management" source="x_85636_bg">64432e451ba63c501363ff37dc4bcb1c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Board Game Management">64432e451ba63c501363ff37dc4bcb1c</sys_scope>
+        <sys_scope_delete display_value="">2dcb12088ec34c609e02e7d81db32400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6a30b2611bb6f0501363ff37dc4bcbe4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6a30b2611bb6f0501363ff37dc4bcbe4">ee30b2611bb6f0501363ff37dc4bcbe8</sys_update_version>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2021-09-24 21:05:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
